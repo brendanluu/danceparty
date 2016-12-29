@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 23178878878159710}
   - component: {fileID: 114310870181676776}
   - component: {fileID: 114455937799300170}
+  - component: {fileID: 114326913443432400}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -147,6 +148,18 @@ MonoBehaviour:
     InterpolateOption: 0
     InterpolateMoveTowardsSpeed: 1
     InterpolateLerpSpeed: 0
+--- !u!114 &114326913443432400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1210020790424868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c34606eb51f48f746bbdb15a84db7665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 1
 --- !u!114 &114455937799300170
 MonoBehaviour:
   m_ObjectHideFlags: 1
